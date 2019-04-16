@@ -9,7 +9,7 @@ var subtractionResult;
 module.exports = function() {
 	// cleanup before every scenario
 	this.Before(function(scenario, callback) {
-		this.apickli = new apickli.Apickli('http', 'www.int.carcodeal.com/api/');
+		this.apickli = new apickli.Apickli('http', 'www.[DOMAIN HERE].com/api/');
 		callback();
 	});
 
